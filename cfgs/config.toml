@@ -1,0 +1,23 @@
+
+[server]
+addr = ":8080"
+
+[db]
+type = "mysql"
+dsn = "root:a411568765@tcp(127.0.0.1:3306)/goa?charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+
+
+[oauth]
+
+
+[oauth.github]
+client_id = "08e00c5ff99085a344fd"
+client_secret = "831864bf563dea70f50be6c25b49c7d0a613e216"
+redirect_url = "http://localhost:8080/github/callback"
+scopes = "read:user"
+
+[oauth.google]
+
+[oauth.apple]
+
+[oauth.wechat]
